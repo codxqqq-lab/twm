@@ -4,26 +4,10 @@
   "checkpoint_source": "VALIDATED_ROLLOUT_R13/FROZEN_PACKAGE/checkpoints",
   "observation_source": "VALIDATED_ROLLOUT_R13/FROZEN_PACKAGE/data/rollout_fresh.jsonl",
   "examples": [
-    {
-      "file": "examples/station_7.json",
-      "archive_row_id": "rollout_F3_G0_0080",
-      "n_nodes": 7
-    },
-    {
-      "file": "examples/station_8.json",
-      "archive_row_id": "rollout_F1_G4_0022",
-      "n_nodes": 8
-    },
-    {
-      "file": "examples/station_9.json",
-      "archive_row_id": "rollout_F0_G3_0088",
-      "n_nodes": 9
-    },
-    {
-      "file": "examples/station_10.json",
-      "archive_row_id": "rollout_F4_G1_0014",
-      "n_nodes": 10
-    }
+    {"file":"examples/station_7.json","archive_row_id":"rollout_F3_G0_0080","n_nodes":7},
+    {"file":"examples/station_8.json","archive_row_id":"rollout_F1_G4_0022","n_nodes":8},
+    {"file":"examples/station_9.json","archive_row_id":"rollout_F0_G3_0088","n_nodes":9},
+    {"file":"examples/station_10.json","archive_row_id":"rollout_F4_G1_0014","n_nodes":10}
   ],
   "sha256": {
     "weights/R12A_seed17_step5000.pt": "c673df97ca82e7db2fc35414e06ce731b968c1326ab754a95bea945403ee26ad",
@@ -35,9 +19,9 @@
     "runtime/canonical/factor_model.py": "0bdb1bffe4e9d6b9f6fbd4f5f55c9a85949602cf42d66233bc8ccdedb4d5c589",
     "runtime/canonical/separated_system_id.py": "607f0e62849040e1b32b973d662fec3451ad70343780dc1dcbe944f1824fc6f6",
     "runtime/canonical/distilled_evidence_system_id.py": "40a9677f5efa80075ed7e51016f59556d33b6cb08f5ca86eed173fede537225a",
-    "examples/station_7.json": "0a313d6474e56fae84369a49002ed75291ba24f5113440cc24e979c96bdbebd0",
-    "examples/station_8.json": "a59fe7ab4a279f3303e220d9ff9bf91b9229a2496f8b5ad17c9d57d095286085",
-    "examples/station_9.json": "24b67826ae0f03903261786ef3df87d70a4a4daf346de7d39a0c0b4bf9986b22",
-    "examples/station_10.json": "2eb1d93d8d978cfb26b6a0e9139a95441ff8e7c4ce51a8e67fa8806fb838fd16"
+    "examples/station_7.json": "c9b579bbaf54f112bd8f55e20606c6505e39a6fbf66200e5ae59534f17221e3c",
+    "examples/station_8.json": "d3c0760158a9e49901c786d8e9b080732b0a07d8eb60399299df9352c2ba86fc",
+    "examples/station_9.json": "622339289883a13894ba04f8a30e4a651fe2145d22ab86b980c8bf3f348b3d39",
+    "examples/station_10.json": "a2b95b21343abb0ba1df7d4a293edf8c77faff73923a1b233871ba039c7afc49"
   }
 }
